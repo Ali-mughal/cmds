@@ -1,0 +1,2 @@
+Error: duplicate key value violates unique constraint
+SELECT setval('job_family_category_line_id_seq', (SELECT MAX(id) FROM job_family_category_line)+1);
