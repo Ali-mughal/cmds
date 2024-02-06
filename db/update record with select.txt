@@ -1,0 +1,1 @@
+update flat_renewal as fr set department_id = (select department_id from hr_employee as re where fr.requested_for=re.id);

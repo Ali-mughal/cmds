@@ -1,0 +1,4 @@
+to clear windows log 
+1. run
+2. %temp%
+3. delete all file

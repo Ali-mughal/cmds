@@ -1,0 +1,5 @@
+Q1. How to add remote repository to local git 
+Ans: 1. git remote add upstream main_repository_link
+     2. git fetch upsream
+     3. git checkout main
+     4. git rebase upsream/branch_name
